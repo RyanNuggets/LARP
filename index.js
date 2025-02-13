@@ -1,11 +1,9 @@
-require('dotenv').config(); // Load environment variables
-
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 
-const token = process.env.TOKEN;
+const token = process.env.TOKEN; // Access environment variable directly
+const targetChannelId = process.env.TARGET_CHANNEL_ID; // Access environment variable directly
+const requiredRoleId = process.env.REQUIRED_ROLE_ID; // Access environment variable directly
 const prefix = '>';
-const targetChannelId = process.env.TARGET_CHANNEL_ID;
-const requiredRoleId = process.env.REQUIRED_ROLE_ID;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers] });
 
