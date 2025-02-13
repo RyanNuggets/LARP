@@ -4,5 +4,5 @@ module.exports = {
     permission_roles: [
         "1335672434690625627",
     ],
-    protected_message_id: "1339597336544018535"
+    protected_message_id: "1339637773753122867"
 };
