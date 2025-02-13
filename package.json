@@ -1,14 +1,9 @@
 {
-  "name": "larp",  // Replace with your bot's name
+  "name": "your-bot-name",
   "version": "1.0.0",
-  "description": "A Discord bot",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "discord.js": "^14.7.1", // Or your preferred version
-    "dotenv": "^16.0.3",  // For environment variables
-    "discord-api-types": "^0.37.5" // Match with your discord.js version
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "discord-api-types": "^0.37.5"
   }
 }
